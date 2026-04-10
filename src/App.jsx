@@ -9,7 +9,6 @@ import IndividualPostPage from "./Components/blog/IndividualPostPage";
 import ContactPage from "./Components/contact/ContactPage";
 
 function App() {
-  const [comments, setComments] = useState([]);
 
   const posts = [
     {
@@ -23,7 +22,7 @@ function App() {
       content: "More blog content here.",
     },
   ];
-  
+
   return (
     <Router>
       <Header />
