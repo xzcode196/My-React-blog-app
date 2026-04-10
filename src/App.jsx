@@ -23,11 +23,7 @@ function App() {
       content: "More blog content here.",
     },
   ];
-
-  const addComment = (comment) => {
-    setComments([...comments, comment]);
-  };
-
+  
   return (
     <Router>
       <Header />
